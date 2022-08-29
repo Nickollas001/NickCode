@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@1,100&family=Racing+Sans+One&display=swap');
+
+h1{
+        color: rgb(42, 252, 0);
+        font-family: 'Racing Sans One', cursive;
+}
+
+h2{
+    font-family: 'Libre Franklin', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.titulo1{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+.titulo1 img{
+    width: 200px;
+    height: 200px;
+}
+.container1{
+    margin: 0 auto;
+    display: flex;
+}
+.container1 img{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 100%;
+
+}
+.container2{
+    margin: 20px 0;
+    padding: 20px;
+}
+.container2 h1{
+    margin-bottom: 10px;
+}
+.container3,.container2{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container3{
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    border-radius: 20px;
+    padding: 20px 0 80px 0;
+    margin-bottom: 150px;
+}
+.container3 h1{
+    margin: 30px 0 10px 0;
+}
+.projetos{
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    gap: 100px;
+}
+.projetox{
+    padding: 40px;
+    width: 35%;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    cursor:pointer;
+}
+
+.projetox a,.projetox h1{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 23px;
+    color: black;
+    text-align: center;
+    display: none;
+}
+.projetox a{
+    padding: 16px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: white;
+}
+.titulo-projetos{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0px;
+}
+.projetox img{
+    width: 100%;
+}
+#button-ace_league{
+    border:  1px solid white;
+    color: red;
+}
+.footer-titulo{
+    text-align: center;
+    align-items: center;
+    margin: 60px;
+}
+
+.redes{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 50px;
+}
+
+.footer-titulo h1{
+    padding: 20px 0px;
+}
+
+.footer-info{
+    text-align: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+footer{
+    background-color: black;
+}
+
+#texto-idols{
+    letter-spacing: 1px;
+}
+
+#texto-ace_league{
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width:768px){
+    .projetox{
+        width: 50%;
+    }
+    .projetox a,.projetox h1{
+        font-size: 15px
+    }
+}
+@media screen and (max-width:600px){
+    .projetox a,.projetox h1{
+        font-size: 8px
+    }
+    .projetox a{
+        padding: 12px;
+    }
+}
+@media screen and (max-width:500px){
+    .projetos{
+        flex-wrap: wrap;
+    }
+    .projetox{
+        padding: 20px;
+        width: 100%;
+    }
+    .projetox img{
+        width: 50%;
+    }
+    .projetox a{
+        padding: 10px;
+    }
+    .projetox a,.projetox h1{
+        font-size: 16px;
+    }
+    .titulo1{
+        font-size: 12px;
+    }
+    h1{
+        font-size: 18px;
+    }
+    h2{
+        font-size: 16px;
+    }
+    .container3{
+        margin: 10px 0;
+    }
+}
